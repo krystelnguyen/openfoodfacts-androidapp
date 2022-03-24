@@ -1,5 +1,27 @@
 # Changelog
 
+### [3.8.1](https://github.com/krystelnguyen/openfoodfacts-androidapp/compare/v3.8.0...v3.8.1) (2022-03-24)
+
+
+### Bug Fixes
+
+* "No nutrition facts" switch not working as intended ([#4583](https://github.com/krystelnguyen/openfoodfacts-androidapp/issues/4583)) ([0c26ad1](https://github.com/krystelnguyen/openfoodfacts-androidapp/commit/0c26ad1209e4201302dee2006a1869f231613d66))
+* "Search for a food category" hint hardcoded ([#4539](https://github.com/krystelnguyen/openfoodfacts-androidapp/issues/4539)) ([5050cf1](https://github.com/krystelnguyen/openfoodfacts-androidapp/commit/5050cf1d95929b90a3660b17bdbbc63f3a9a569f))
+* Attempt to fix NPE: interface method 'java.lang.Object java.util.Map.get(java.lang.Object) ([#4496](https://github.com/krystelnguyen/openfoodfacts-androidapp/issues/4496)) ([29f17a9](https://github.com/krystelnguyen/openfoodfacts-androidapp/commit/29f17a9b1db3df3fff364375dec6a1c09465fe6a))
+* Attempting to launch an unregistered ActivityResultLauncher ([51f7767](https://github.com/krystelnguyen/openfoodfacts-androidapp/commit/51f7767dfb7cee388f9b8b4a4e79e14c5f71c363))
+* Barcode scanner: No visual cues for icons on top of the screen ([#4573](https://github.com/krystelnguyen/openfoodfacts-androidapp/issues/4573)) ([b82697f](https://github.com/krystelnguyen/openfoodfacts-androidapp/commit/b82697f4eb5c5dcbd186cfa826443bf1c2a4a2b8))
+* delete wrong translations & fix null error ([#4501](https://github.com/krystelnguyen/openfoodfacts-androidapp/issues/4501)) ([1bf2517](https://github.com/krystelnguyen/openfoodfacts-androidapp/commit/1bf25172650112172b2d6c99a5fcb980901d85a1))
+* lint issues ([#4519](https://github.com/krystelnguyen/openfoodfacts-androidapp/issues/4519)) ([6ca3cde](https://github.com/krystelnguyen/openfoodfacts-androidapp/commit/6ca3cde74819c722708d1b1ae110417ab1b2a55d))
+* Login screen: the login button should not be disabled directly, as a dedicated method (updateLoginButtonState) already handles all the error/loading… cases ([#4531](https://github.com/krystelnguyen/openfoodfacts-androidapp/issues/4531)) ([96d0fe0](https://github.com/krystelnguyen/openfoodfacts-androidapp/commit/96d0fe06e80ee2149adefdb19668ff2984596d52))
+* NPE at ProductSearchActivity ([8bd9aee](https://github.com/krystelnguyen/openfoodfacts-androidapp/commit/8bd9aee102998cc0755fba5def0e68db89fa4891))
+* NPE in ProductEditActivity#getUpdatedFieldsMap ([0ff12f6](https://github.com/krystelnguyen/openfoodfacts-androidapp/commit/0ff12f6e68dc57dcf83c7c971c94ccb30d2f0281))
+* try to fix an exception with adding a product from other screens ([cfbb21e](https://github.com/krystelnguyen/openfoodfacts-androidapp/commit/cfbb21e7579e658d2c2dfbe4d9a2c28156ff258e))
+
+
+### Reverts
+
+* try to make things work ([#4508](https://github.com/krystelnguyen/openfoodfacts-androidapp/issues/4508)) ([f17cf09](https://github.com/krystelnguyen/openfoodfacts-androidapp/commit/f17cf0974faaeebec6df761db1660a8a53dfb382))
+
 ## [3.8.0](https://github.com/openfoodfacts/openfoodfacts-androidapp/compare/v3.7.0...v3.8.0) (2022-02-09)
 
 
